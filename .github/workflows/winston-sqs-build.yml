@@ -1,4 +1,4 @@
-name: containr:build
+name: winston-sqs
 
 on:
   pull_request
