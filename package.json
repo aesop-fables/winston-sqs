@@ -1,6 +1,6 @@
 {
   "name": "@aesop-fables/winston-sqs",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Winston logging transport for writing to AWS SQS",
   "author": "Josh Arnold <rncodepoet@gmail.com>",
   "type": "commonjs",

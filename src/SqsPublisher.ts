@@ -14,6 +14,6 @@ export class SqsPublisher implements ISqsPublisher {
       QueueUrl: this.queueUrl,
     };
 
-    await this.sqs.sendMessage(params);
+    await this.sqs.sendMessage(params).promise();
   }
 }
